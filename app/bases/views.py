@@ -6,4 +6,4 @@ from django.views import generic
 class Home(generic.TemplateView):
     template_name = 'bases/home.html'
     #Haremos que nos redireccione al login
-    login_url='/admin'
+    login_url='bases:login'
