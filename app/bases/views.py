@@ -56,3 +56,5 @@ class HomeSinPrivilegios(LoginRequiredMixin, generic.TemplateView):
 #         if idioma_id:
 #             qs = qs.filter(idioma__id=idioma_id)
 #         return qs
+
+
