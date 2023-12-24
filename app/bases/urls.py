@@ -18,6 +18,6 @@ urlpatterns = [
          HomeSinPrivilegios.as_view(),
          name='sin_privilegios'),
     
-#     path('idiomas/',IdiomaList.as_view(),name="idiomas"),
-#     path('frases/',FraseList.as_view(),name="frases"),
+    path('idiomas/',IdiomaList.as_view(),name="idiomas"),
+    path('frases/',FraseList.as_view(),name="frases"),
 ]

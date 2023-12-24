@@ -4,6 +4,7 @@ from .views import ProveedorView,ProveedorNew, ProveedorEdit, \
     proveedorInactivar, \
     ComprasView, compras, CompraDetDelete
 
+from .reportes import reporte_compras, imprimir_compra
 
 urlpatterns = [
     path('proveedores/',ProveedorView.as_view(), name="proveedor_list"),
@@ -18,5 +19,4 @@ urlpatterns = [
 
     path('compras/listado', reporte_compras, name='compras_print_all'),
     path('compras/<int:compra_id>/imprimir', imprimir_compra,name="compras_print_one"),
-
 ]
