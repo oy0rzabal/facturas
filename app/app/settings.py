@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'fac',
     'django_userforeignkey',
     'rest_framework',
-    'BienesRaices'
 ]
 
 MIDDLEWARE = [
